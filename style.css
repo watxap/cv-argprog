@@ -1,4 +1,8 @@
 
-.foto {
-    
+body {
+    background-color: lightsalmon;    
+}
+
+.lista {
+    list-style: square;
 }
