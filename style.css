@@ -1,6 +1,11 @@
+* {
+    box-sizing: border-box;
+    font-family: 'Yanone Kaffeesatz', sans-serif;
+}
 
 body {
-    background-color: lightsalmon;    
+    background-color: lightsalmon;
+    text-align: center;    
 }
 
 .lista {

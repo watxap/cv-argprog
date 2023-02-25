@@ -6,38 +6,47 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Curriculum Vitae</title>
     <link rel="stylesheet" type="text/css" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Yanone+Kaffeesatz&display=swap" rel="stylesheet">
 </head>
 <body>
-    <img class="foto" src="https://randomuser.me/api/portraits/men/26.jpg">    
+    <img id="foto" src="https://randomuser.me/api/portraits/men/26.jpg">    
     
     <div>
     <h1>
-    Curriculum vitae
-    Benjamín Gonzalez
+    Curriculum vitae - <strong>Benjamín Gonzalez</strong>
 </h1>
 </div>
 
     <div>
-    <h3>información personal:</h3>
-    <h2>domicilio: 
-    fecha de nacimiento: 09/07/1981
-    teléfono: (377) 261-5186
-    email: benjagonzalez@example.com
-</h2>
+    <h2>Información personal:</h2>
+    <h3>
+    <ul>
+        <li>Domicilio: 8548 Lovers Ln, Massachusetts</li> 
+        <li>Fecha de nacimiento: 09/07/1981</li>
+        <li>Teléfono: (377) 261-5186</li>
+        <li>Email: benjagonzalez@example.com</li>
+    </ul>
+    Lorem ipsum dolor sit amet consectetur adipisicing elit. Aut culpa facere iste nostrum obcaecati. Maiores hic odit, suscipit esse quo nihil totam accusamus earum dolore reprehenderit. Doloremque ipsa culpa libero!
+</h3>
 </div>
 
     <div>
-    experiencia:
+    <h2>Experiencia:</h2>
+    <h3>
     <ul class="lista">
         <li>Freelancer            
         </li>
         <li>Soluciones Informáticas S.A.            
         </li>
     </ul>
+    </h3>
     </div>
  
     <div>
-    habilidades:
+    <h2>Habilidades:</h2>
+    <h3>
     <p>Inglés</p>
     <progress value="70" max="100"></progress>
     <p>HTML</p>
@@ -46,8 +55,12 @@
     <progress value="80" max="100"></progress>
     <p>Javascript</p>
     <progress value="20" max="100"></progress>
+    </h3>    
     </div>
-<button type="button">¡Contactame!</button>
-    </p>
+
+<button type="button"><a href="tel:+3772615186">¡Contactame!</a></button>
+    
+<a href="#foto">Ir arriba</a>
+
 </body>
 </html>
