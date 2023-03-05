@@ -5,9 +5,9 @@
 
  body {
     background-color: lightsalmon;
-    text-align: center;    
+    text-align: center;  
 }
 
-.lista {
-    list-style: square;
+ul {
+    list-style: none;
 }
