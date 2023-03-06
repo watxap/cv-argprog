@@ -15,9 +15,9 @@
 <body>
     <div class="presentacion">
     <img id="foto" src="https://randomuser.me/api/portraits/men/37.jpg">    
-    <i class="fa-solid fa-hand-peace fa-6x" ></i>
+    <i id="iconoAlAzar" class=""></i>
     <h1>
-    <strong>Benjamín González</strong>
+    <strong>Benjamín González</strong> (curriculum vitae)
     </h1>
     </div>
 
@@ -48,8 +48,9 @@
     <h2><i class="fa-solid fa-code-branch"></i>   Experiencia:</h2>
     <h3>
     <ul>
-        <li>Freelancer</li>
-        <li>Soluciones Informáticas S.A.</li>
+        <li><em>Freelancer</em> (2009 - 2016) </li>
+        <li><em>El Campito Refugio</em> (2016 - 2017) </li>
+        <li><em>Soluciones Informáticas S.A.</em> (2017 - presente) </li>
     </ul>
     </h3>
     </div>
@@ -58,14 +59,17 @@
     <div class="habilidades">
     <h2><i class="fa-solid fa-code"></i>   Habilidades:</h2>
     <h3>
+    <p><button id="formatoBoton" onclick="mostrarCodigo()">Código</button></p>
+    <div id="divCodigo"> 
     <p>HTML</p>
     <progress value="5" max="10"></progress>
     <p>CSS</p>
     <progress value="8" max="10"></progress>
     <p>Javascript</p>
     <progress value="2" max="10"></progress>
-    <p><button id="botonIdiomas" onclick="myFunction()">Idiomas</button></p>
-    <div id="myDIV">    
+    </div>
+    <p><button id="formatoBoton" onclick="mostrarIdiomas()">Idiomas</button></p>
+    <div id="divIdiomas">    
     <p>Inglés escrito</p>
     <progress value="6" max="10"></progress>
     <p>Inglés oral</p>

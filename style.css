@@ -10,6 +10,7 @@
 
 ul {
     list-style: none;
+    padding-left: 1%;
 }
 
 .informacion1, .experiencia {
@@ -21,7 +22,7 @@ ul {
     padding:3%;
 }
 
-#botonIdiomas {
+#formatoBoton {
     background-color: lightsalmon;
     border: none;
     font-weight: 600;
@@ -38,3 +39,36 @@ ul {
   #botonIdiomas:hover {
     color: paleturquoise;
   }
+
+
+@media only screen and (min-width: 425px) {
+.informacion2 {
+column-count:2;
+column-rule: 1px solid paleturquoise;
+}
+}
+
+@media only screen and (min-width: 1024px) {
+   
+    .informacion1 {
+        width: 25%;
+        float: left;
+        padding:1%;
+    }
+    .informacion2 {
+        width: 25%;
+        float: left;
+        column-count:1;
+        padding:1%;
+    }
+    .experiencia {
+        width: 25%;
+        float: left;
+        padding:1%;
+    }
+    .habilidades {
+        width: 25%;
+        float: left;
+        padding:1%;
+    }
+}
