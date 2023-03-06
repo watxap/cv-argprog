@@ -11,3 +11,30 @@
 ul {
     list-style: none;
 }
+
+.informacion1, .experiencia {
+    background-color:paleturquoise;
+    padding: 3%;
+}
+
+.informacion2, .habilidades {
+    padding:3%;
+}
+
+#botonIdiomas {
+    background-color: lightsalmon;
+    border: none;
+    font-weight: 600;
+    color: black;
+    padding: 15px 32px;
+    text-align: center;
+    display: inline-block;
+    font-size: 20px;
+    margin: 4px 2px;
+    cursor: pointer;
+  }
+
+  
+  #botonIdiomas:hover {
+    color: paleturquoise;
+  }
